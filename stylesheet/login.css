@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(168, 165, 165);
+}
+form{
+    background-color: beige;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 6px;
+}
+button{
+    color: white;
+    background-color: rgb(230, 185, 80);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    
+}
+button:hover{
+    background-color: rgb(228, 155, 7);
+}
+p {
+    margin-top: 80px;
+    font-size: 1rem;
+    color: #333;
+}
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+form input:focus {
+    outline: none;
+    border-color: #f4d259;
+    box-shadow: 0 0 8px rgba(245, 213, 85, 0.25);
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
